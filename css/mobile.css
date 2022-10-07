@@ -1,0 +1,94 @@
+@media (max-width: 767px) {
+  .lopphu {
+    width: 100%;
+  }
+  header img {
+    width: 100%;
+    object-fit: fill;
+  }
+  #banner h1 {
+    width: 100%;
+  }
+  .container-1 {
+    flex-direction: column;
+    padding: 0;
+  }
+  #target {
+    padding-bottom: 20px;
+  }
+  #personal-info {
+    padding-bottom: 40px;
+  }
+  .icon--info {
+    padding-top: 20px;
+  }
+
+  .job-info {
+    font-size: 14px;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .job {
+    padding: 0;
+  }
+  .container-certificate {
+    grid-template-columns: 1fr;
+  }
+  #cer-1 {
+    justify-items: center;
+    border-bottom: 1px solid #d6c08d;
+  }
+  #cer-2 {
+    padding: 0;
+    border: none;
+    justify-items: center;
+  }
+  #cer-3 {
+    justify-items: center;
+  }
+  .project- {
+    margin: auto;
+    padding: 20px 0 40px 20px;
+  }
+
+  .project-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .span {
+    width: 220px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .span span {
+    background: #199cdb;
+    height: 2px;
+    width: 65px;
+  }
+  #footer {
+    width: 100%;
+  }
+  #footer ul {
+    font-size: 12px;
+  }
+  #footer ul li {
+    padding-right: 15px;
+  }
+  .img- {
+    position: relative;
+  }
+  #footer ul li i {
+    position: absolute;
+    width: 100%;
+    font-size: 24px;
+    top: 0;
+    left: -20px;
+  }
+  #footer ul li a {
+    padding: 2px;
+  }
+  .project-container img {
+    width: 100%;
+  }
+}

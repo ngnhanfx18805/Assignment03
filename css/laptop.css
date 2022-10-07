@@ -1,0 +1,256 @@
+@media (min-width: 1024px) {
+  .container-header {
+    position: relative;
+  }
+  .lopphu {
+    height: 60vh;
+    width: 100%;
+  }
+  header img {
+    height: 60vh;
+    width: 100%;
+  }
+  /*
+header {
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url(/images/banner.jpg);
+  background-size: cover;
+  color: #fff;
+}
+*/
+  #banner {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 400;
+  }
+
+  #banner h1 {
+    color: #e9ecef;
+    width: 500px;
+  }
+
+  #banner span,
+  .name span {
+    font-size: 14px;
+    color: #adb5bd;
+  }
+
+  .bg-grey {
+    margin-bottom: 40px;
+  }
+
+  .container-1 a {
+    color: black;
+    border-left: 1px solid #f1f3f5;
+    border-right: 1px solid #f1f3f5;
+    padding: 22px 28px;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  i {
+    color: #748ffc;
+  }
+
+  .container-1 a:hover {
+    background-color: black;
+    color: white;
+  }
+  .name {
+    line-height: 1.5;
+    padding: 0 100px;
+  }
+  .bg-grey {
+    background: #f7f7f7;
+  }
+  #target {
+    padding: 75px 10px 50px 50px;
+  }
+  #target p {
+    line-height: 2;
+    font-size: 14px;
+  }
+  .info {
+    line-height: 2.5;
+    font-size: 14px;
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .info span {
+    font-weight: bold;
+  }
+
+  .info a {
+    text-decoration: none;
+    color: #444;
+  }
+  .job {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 80px auto;
+    border: 1px solid #f1f3f5;
+  }
+  .job i {
+    color: #ced4da;
+    font-size: 40px;
+    padding: 20px;
+  }
+  .job h1 {
+    font-size: 28px;
+    padding-top: 25px;
+    padding-left: 40px;
+  }
+  .job ul {
+    padding-left: 62px;
+    grid-column: 1/3;
+    grid-row: 2;
+    line-height: 2;
+    color: #868e96;
+  }
+  .job li {
+    padding-top: 40px;
+  }
+  .job-1 {
+    font-weight: bold;
+    color: #495057;
+  }
+
+  .date {
+    display: flex;
+  }
+  .list-icon {
+    height: 402px;
+    grid-column: 1/3;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .item-icon i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+    margin-bottom: 5px;
+    color: #748ffc;
+    border: 1px solid #748ffc;
+    border-radius: 50%;
+  }
+  .span- {
+    padding-top: 40px;
+    height: 402px;
+    padding-left: 40px;
+    line-height: 1;
+  }
+  .span-- {
+    margin-bottom: 20px;
+  }
+  .span {
+    width: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .span span {
+    background: #199cdb;
+    height: 2px;
+    width: 45px;
+  }
+  #certificate {
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    display: block;
+  }
+  .certificate- {
+    width: auto;
+    margin-left: 100px;
+    padding: 40px 0 40px 0;
+  }
+  .container-certificate {
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .items-certificate {
+    display: flex;
+    columns: 1;
+  }
+
+  .items-certificate img {
+    width: 200px;
+  }
+
+  .items-certificate div {
+    padding: 20px;
+    font-size: 12px;
+    line-height: 1.5;
+
+    color: #495057;
+  }
+  #cer-2 {
+    border-left: 1px solid #d6c08d;
+    margin-bottom: 40px;
+    padding-left: 40px;
+  }
+  #project {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    display: block;
+  }
+  .project- {
+    margin-left: 100px;
+    padding: 20px 0 40px 0;
+  }
+  .project- h1 {
+    margin-bottom: 40px;
+  }
+  .project-container {
+    display: flex;
+  }
+  #footer {
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  #footer ul {
+    list-style-type: none;
+  }
+  #footer li {
+    margin-right: 50px;
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+  }
+  .link-- {
+    text-decoration: none;
+    color: #adb5bd;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+  }
+  #footer li i {
+    color: #199cdb;
+    font-size: 32px;
+  }
+  #nav-bar img {
+    object-fit: cover;
+    object-position: -20% 0;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    width: 200px;
+    height: 200px;
+  }
+}
